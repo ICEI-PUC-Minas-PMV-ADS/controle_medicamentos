@@ -213,6 +213,8 @@ O quadro kanban do GitHub Project utilizado pela equipe está disponível atrav�
 
 <img align="left" src="img/kanban.png">
 
+
+
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
