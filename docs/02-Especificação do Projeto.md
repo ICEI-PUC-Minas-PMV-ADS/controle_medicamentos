@@ -211,10 +211,10 @@ A plataforma Github Project está sendo utilizada pela equipe para organização
 
 O quadro kanban do GitHub Project utilizado pela equipe está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos e atualmente, se encontra neste estado, conforme Figura Kanban.  
 
-![Kanban GitHub Project](https://github.com/ICEI-PUC-Minas-pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/documentos/img/kamban controle de medicamentos.png)
+![Kanban GitHub Project](img/kambancontroledemedicamentos.png)
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/kamban controle de medicamentos.png)
+
