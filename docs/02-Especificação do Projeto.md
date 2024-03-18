@@ -200,4 +200,4 @@ Com a ferramenta de gerenciamento de tarefas Kamban, está exemplificado abaixo 
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento](img/kamban controle de medicamentos.png)
