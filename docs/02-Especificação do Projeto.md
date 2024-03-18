@@ -175,26 +175,43 @@ A matriz deve contemplar todos os elementos relevantes que fazem parte do sistem
 > - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
 
 
-# Gerenciamento de Projeto
+# Gerenciamento de Projeto, Tempo e Equipe
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Visando um processo de desenvolvimento mais adequado ao escopo do projeto, após análise do contexto, a equipe optou por utilizar o Scrum como estrutura ágil. A equipe está organizada da seguinte maneira: 
 
-## Gerenciamento de Tempo
+* Product Owner: Mário José Copertino Filho 
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+* Scrum Master: Lorena Poliane de Oliveira 
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+* Equipe de Desenvolvimento 
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+	* Lorena Poliane De Oliveira
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+	* Mário José Copertino Filho 
 
-## Gerenciamento de Equipe
+	* Matheus Marques Aguiar 
 
-Com a ferramenta de gerenciamento de tarefas Kamban, está exemplificado abaixo como estamos direcionando e realizando as tarefas:
+	* Thiago Singulano Machado  
 
+* Equipe de Design 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+		* Matheus Marques Aguiar 
+
+	* Thiago Singulano Machado  
+
+A plataforma Github Project está sendo utilizada pela equipe para organização e distribuição das tarefas do projeto, sendo as atividades segmentadas pelas listas a seguir: 
+ 
+* **Product Backlog**: contém a lista de todas as macros tarefas previstas para a entrega de todo o projeto e, a cada sprint, serão elencadas para a lista “To do” conforme prioridades. Se necessário, podem ser descontinuadas. 
+
+* **To Do**: a lista apresenta todas as tarefas elencadas para serem trabalhadas durante a sprint. 
+
+* **In Progress**: apresenta as tarefas que já foram iniciadas pelos responsáveis atribuídos. 
+
+* **Done**: assim que a tarefa é finalizada ela é apresentada nesta lista. Significa que não haverá mais a necessidade de atuação. 
+
+O quadro kanban do GitHub Project utilizado pela equipe está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos e atualmente, se encontra neste estado, conforme Figura Kanban.  
+
+![Kanban GitHub Project](https://github.com/ICEI-PUC-Minas-pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/documentos/img/kamban controle de medicamentos.png)
 
 ## Gestão de Orçamento
 
