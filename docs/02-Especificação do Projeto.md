@@ -211,7 +211,7 @@ A plataforma Github Project está sendo utilizada pela equipe para organização
 
 O quadro kanban do GitHub Project utilizado pela equipe está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos e atualmente, se encontra neste estado, conforme Figura Kanban.  
 
-<img align="left" width="180px" height="190px" style="margin:-5px 1em 0 auto" src="img/kanban.png">
+<img align="left" src="img/kanban.png">
 
 ## Gestão de Orçamento
 
