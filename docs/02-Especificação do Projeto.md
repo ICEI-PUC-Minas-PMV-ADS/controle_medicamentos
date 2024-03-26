@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Documentação de Contexto</a></span>
 
 O problema da desorganização de horários no consumo de medicamentos e do estoque dos mesmos pode ser resolvido com o uso desta aplicação, uma vez que através de uma simples função pode-se obter a informação do horário exato de cosumação do remédio e a contagem das doses ainda restantes, facilitando a monitorização para a compra de novos medicamentos
 
@@ -104,9 +104,9 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 |RF-001| O aplicativo deve conter campo para cadastro de usuário | ALTA | 
 |RF-002| O aplicativo deve conter campo para cadastro de medicamentos | MÉDIA |
 |RF-003| O aplicativo deve conter campo para quantificar os medicamentos cadastrados | MÉDIA |
-|RF-004| O aplicativo deve conter campo para lançamento de horários de injestão dos remédios | MÉDIA |
-|RF-005| O aplicativo deve conter uma tabela com demosntrativos da quantidade dos medicamentos que ainda restam | MÉDIA |
-|RF-006| O aplicativo deve conter alarme para lembrar o usuário de tomar o remédio | MÉDIA |
+|RF-004| O aplicativo deve conter campo para lançamento de horários de ingestão dos medicamentos | MÉDIA |
+|RF-005| O aplicativo deve conter uma tabela com demonstrativos da quantidade dos medicamentos que ainda restam | MÉDIA |
+|RF-006| O aplicativo deve conter alarme para lembrar o usuário de tomar o medicamento | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -124,26 +124,18 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O desenvolvimento da solução não pode ser subcontratado  |
+|03| O aplicativo não pode prescrever medicamentos       |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Diagrama de Casos de Uso](img/02-diagrama-casos-de-uso.png)
 
 # Matriz de Rastreabilidade
 
@@ -179,7 +171,7 @@ Visando um processo de desenvolvimento mais adequado ao escopo do projeto, após
 
 * Equipe de Design 
 
-		* Matheus Marques Aguiar 
+	* Matheus Marques Aguiar 
 
 	* Thiago Singulano Machado  
 
