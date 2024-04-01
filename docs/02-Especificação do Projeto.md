@@ -79,9 +79,8 @@ A falta de organização no estoque de medicamentos de pessoas que fazem uso con
 
 Este projeto visa proporcionar à qualquer pessoa, ter em suas mãos uma única aplicação, que possua essas duas funções: notificações para lembrar de tomar os remédios na hora exata e o aviso de quanto ainda resta de estoque, para evitar a falta dos mesmos.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – VERIFICAR MEDICAMENTOS CADASTRADOS 
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
 ![Processo 1](img/Processo1.png)
 
