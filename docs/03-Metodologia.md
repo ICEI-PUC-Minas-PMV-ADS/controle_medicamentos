@@ -63,8 +63,6 @@ O grupo faz uso do recurso de gerenciamento de projeto oferecido pelo GitHub, qu
 
 As ferramentas empregadas no projeto são:
 
-As ferramentas empregadas no projeto são:
-
 - Visual Studio Code. O VS Code é um editor de código altamente popular e amplamente utilizado na indústria de desenvolvimento de software. Sua escolha se baseia na sua versatilidade, extensibilidade e eficiência no desenvolvimento de software.
 
 - Microsoft Teams e Whatsapp. O Microsoft Teams é uma plataforma de colaboração que oferece uma variedade de recursos, incluindo chat, videoconferência, compartilhamento de arquivos e integração com outras ferramentas da Microsoft, como o Office 365. Sua escolha se baseia na capacidade de facilitar a comunicação e a colaboração entre os membros da equipe em tempo real, bem como na sua integração com outras ferramentas usadas no ambiente de trabalho. A escolha do WhatsApp se deve à sua capacidade de oferecer comunicação rápida e informal entre os membros da equipe, especialmente em situações em que o acesso a outras plataformas de comunicação, como o Microsoft Teams, pode não ser viável. Essa ferramenta permite trocas rápidas de mensagens, compartilhamento de informações e coordenação de atividades de forma eficaz, especialmente em equipes remotas.
