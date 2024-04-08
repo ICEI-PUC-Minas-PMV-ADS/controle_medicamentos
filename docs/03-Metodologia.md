@@ -3,12 +3,17 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
+Nosso grupo adotará a metodologia ágil Scrum o desenvolvimento aplicação de lembretes de medicamentos. 
+Para gerenciar as tarefas e o progresso do projeto utilizaremos o Github, criaremos quadros para cada sprint do Scrum, onde listamos as tarefas a serem realizadas, em andamento e concluídas. Isso nos permitirá visualizar o fluxo de trabalho e acompanhar o progresso do projeto de forma transparente.
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas, segue  a relação dos ambientes em uma tabela que especifica o Ambiente, Plataforma e Link de Acesso. 
+|    AMBIENTE  | PLATAFORMA | LINK DE ACESSO |
+|----------    |-----------------------------|
+| Código fonte | GitHub   | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/tree/main)  | 
+| Gerenciamento do Projeto      |         GitHub   | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/914)|
+| Projeto de Interface e Wireframes	 | Canvas          |(https://www.canva.com/pt_br/)|
+
 
 ## Controle de Versão
 
@@ -31,15 +36,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -48,40 +44,29 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Mário José Copertino Filho;
+- Product Owner: Matheus Marques Aguiar;
+- Equipe de Desenvolvimento: Thiago Singulano Machado, Matheus Marques Aguiar, Mário José Copertino Filho;
+- Equipe de Design: Thiago Singulano Machado, Matheus Marques Aguiar, Mário José Copertino Filho.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O grupo faz uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+* To Do: tarefas elencadas para a Sprint ativa;
+* In Progress: tarefas em execução;
+* Done: tarefas finalizadas.
  
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+As ferramentas empregadas no projeto são:
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+- Visual Studio Code. O VS Code é um editor de código altamente popular e amplamente utilizado na indústria de desenvolvimento de software. Sua escolha se baseia na sua versatilidade, extensibilidade e eficiência no desenvolvimento de software.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Microsoft Teams e Whatsapp. O Microsoft Teams é uma plataforma de colaboração que oferece uma variedade de recursos, incluindo chat, videoconferência, compartilhamento de arquivos e integração com outras ferramentas da Microsoft, como o Office 365. Sua escolha se baseia na capacidade de facilitar a comunicação e a colaboração entre os membros da equipe em tempo real, bem como na sua integração com outras ferramentas usadas no ambiente de trabalho. A escolha do WhatsApp se deve à sua capacidade de oferecer comunicação rápida e informal entre os membros da equipe, especialmente em situações em que o acesso a outras plataformas de comunicação, como o Microsoft Teams, pode não ser viável. Essa ferramenta permite trocas rápidas de mensagens, compartilhamento de informações e coordenação de atividades de forma eficaz, especialmente em equipes remotas.
+  
+- Canvas. O Canva é uma ferramenta gratuita de design gráfico online que você pode usar para criar wireframes, apresentações, etc.
