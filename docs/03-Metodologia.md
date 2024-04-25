@@ -10,7 +10,7 @@ Para gerenciar as tarefas e o progresso do projeto utilizaremos o Github, criare
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas, segue  a relação dos ambientes em uma tabela que especifica o Ambiente, Plataforma e Link de Acesso. 
 |    AMBIENTE  | PLATAFORMA | LINK DE ACESSO |
 |----------    |-----------------------------|
-| Código fonte | GitHub   | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/tree/main)  | 
+| Código fonte | GitHub                      | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/tree/main)  | 
 | Gerenciamento do Projeto      |         GitHub   | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/914)|
 | Projeto de Interface e Wireframes	 | Canvas          |(https://www.canva.com/pt_br/)|
 
