@@ -16,7 +16,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-!(img/modeloer.png)
+![modelo ER](img/modeloer.png)
 
 ## Esquema Relacional
 
