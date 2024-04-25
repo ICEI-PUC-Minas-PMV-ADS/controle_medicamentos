@@ -5,7 +5,6 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 !(img/02-mob-arch.png)
-!(img/fluxo.png)
 
 ## Diagrama de Classes
 
