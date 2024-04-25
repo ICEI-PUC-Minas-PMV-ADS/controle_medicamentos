@@ -12,8 +12,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas, seg
 |    AMBIENTE  | PLATAFORMA | LINK DE ACESSO |
 |----------    |-----------------------------|
 | Código fonte | GitHub                      | (https://encurtador.com.br/pyNY2))  | 
-| Gerenciamento do Projeto      |         GitHub   | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/914)|
-| Projeto de Interface e Wireframes	 | Canvas          |(https://www.canva.com/pt_br/)|
+| Gerenciamento do Projeto      |   GitHub   | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/914)|
+| Projeto de Interface e Wireframes	| Canvas |(https://www.canva.com/pt_br/)|
 
 
 ## Controle de Versão
