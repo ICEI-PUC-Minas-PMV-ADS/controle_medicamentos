@@ -8,6 +8,7 @@ Para gerenciar as tarefas e o progresso do projeto utilizaremos o Github, criare
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas, segue  a relação dos ambientes em uma tabela que especifica o Ambiente, Plataforma e Link de Acesso. 
+
 |    AMBIENTE  | PLATAFORMA | LINK DE ACESSO |
 |----------    |-----------------------------|
 | Código fonte | GitHub                      | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos/tree/main)  | 
