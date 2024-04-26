@@ -26,7 +26,12 @@ Tela Login
 ![Exemplo de Wireframe](img/2.png)
 
 --------------------------------------------------------------------------------------------------------------------------------
+Tela de Cadastro de medicamentos
 
 ![Exemplo de Wireframe](img/3.png)
+
+--------------------------------------------------------------------------------------------------------------------------------
+Informações do medicamento
+
 ![Exemplo de Wireframe](img/4.png)
 
