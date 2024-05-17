@@ -21,17 +21,24 @@ Tela Inicio
 ![Exemplo de Wireframe](img/1.png)
 
 --------------------------------------------------------------------------------------------------------------------------------
-Tela Login
+Tela cadastro de usuários
 
 ![Exemplo de Wireframe](img/2.png)
 
 --------------------------------------------------------------------------------------------------------------------------------
-Tela de Cadastro de medicamentos
+Tela de recuperação de senha
 
 ![Exemplo de Wireframe](img/3.png)
 
 --------------------------------------------------------------------------------------------------------------------------------
-Informações do medicamento
-
+Tela de cadastro de medicamentos
 ![Exemplo de Wireframe](img/4.png)
+
+--------------------------------------------------------------------------------------------------------------------------------
+Tela de informações de medicamentos
+![Exemplo de Wireframe](img/5.png)
+
+--------------------------------------------------------------------------------------------------------------------------------
+Tela da lista de medicamentos
+![Exemplo de Wireframe](img/6.png)
 
