@@ -84,11 +84,10 @@ Este projeto visa proporcionar à qualquer pessoa, ter em suas mãos uma única 
 
 ![Processo 1](img/Processo1.png)
 
-### Processo 2 – NOME DO PROCESSO
+### Processo 2 – CADASTRAR MEDICAMENTOS
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo 2](img/Processo2.png)
 
 ## Indicadores de Desempenho
 
