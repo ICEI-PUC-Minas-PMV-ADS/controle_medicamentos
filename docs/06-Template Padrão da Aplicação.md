@@ -5,3 +5,4 @@
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 ![Template Padrão da Aplicação](img/Layout.png)
+<img width="180px" height="190px">
