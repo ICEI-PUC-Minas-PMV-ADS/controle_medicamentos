@@ -42,7 +42,15 @@ Segue a representação da interatividade do usuário com o app.
 
 ![arquitetura](img/design.png)
 
+1 O usuário acessa a aplicação.
 
+2 A interface do aplicativo é carregada e exibida no dispositivo (React Native): 
+
+3 O usuário utiliza os recursos como login, cadastro e navegação entre paginas
+
+4 Ao acessar conteudo personalizado como login e senha, cadastro de medicamentos e etc, a aplicação busca as informações no banco de dados.
+
+5 Após essa verificação o usuário recebe a validação, mensagens de alerta ou de acesso negado.
 
 ## Hospedagem
 
