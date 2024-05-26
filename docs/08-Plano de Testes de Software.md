@@ -1,19 +1,25 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Cadastro de usuário - Campos Obrigatórios Ausentes
+Descrição: Verificar se uma mensagem de erro é exibida quando os campos obrigatórios não são preenchidos durante o registro de um novo usuário.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Passos:
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+Acessar a página de cadastro de usuários.
+Deixar um ou mais campos obrigatórios em branco.
+Tentar confirmar o registro.
+Verificar se uma mensagem de erro é exibida indicando os campos obrigatórios precisam ser preenchidos.
+Resultado Esperado: Uma mensagem de erro é exibida indicando os campos obrigatórios que precisam ser preenchidos.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Login com Nome de Usuário ou senha incorretos
+Descrição: Verificar se o sistema impede o login com um nome de usuário ou senha incorretos.
+
+Passos:
+
+Abrir a aplicação.
+Inserir um nome de usuário inválido.
+Inserir uma senha válida.
+Clicar no botão de login.
+Verificar se o sistema exibe uma mensagem de erro indicando que o nome de usuário ou senha estão incorretos.
+Resultado Esperado: O sistema impede o login e exibe uma mensagem de erro indicando que o nome de usuário e senha estão incorretos.
+
