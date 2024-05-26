@@ -38,6 +38,11 @@ Ferramenta de versionamento: Github;
 
 Ferramenta de Gestão de Projeto: Github Projects;
 
+Segue a representação da interatividade do usuário com o app.
+
+![arquitetura](img/design.png)
+
+
 
 ## Hospedagem
 
