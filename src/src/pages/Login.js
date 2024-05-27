@@ -1,12 +1,18 @@
+import React from 'react';
 import { View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import Cadastrauser from './Cadastrauser';
 
-export default function Login() {
+const Stack = createStackNavigator();
+
+function LoginScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/cruzred1.png')} style={styles.logo} />
+      <Image source={require('./assets/cruzred1.png')} style={styles.logo} />
       <Text style={styles.title}>CONTROLE DE MEDICAMENTOS</Text>
 
-      <TextInput style={styles.input} 
+      <TextInput style={styles.input}
       placeholder="Digite seu email" />
 
       <TextInput style={styles.input} 
@@ -20,6 +26,10 @@ export default function Login() {
         
         <Text style={styles.botaoText}>Login</Text>
       </TouchableOpacity>
+
+        
+      <Text style={styles.link} onPress={() => {}}>Esqueceu a senha?</Text>
+      <Text style={styles.link} onPress={() => navigation.navigate('Cadastrauser')}>Ainda não tem conta? Criar uma conta</Text>
       
     </View>
   );
