@@ -3,16 +3,21 @@ import { View, Text, StyleSheet, Image, TextInput, TouchableOpacity } from 'reac
 export default function Cadastrauser() {
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/cruzred1.png')} style={styles.logo} />
-      <Text style={styles.title}>CONTROLE DE MEDICAMENTOS</Text>
+      
 
-   
+      <TextInput style={styles.input}
+      placeholder="Digite seu email" />
+
+      <TextInput style={styles.input} 
+      secureTextEntry={true}
+      placeholder="Digite sua senha" />
+
       <TouchableOpacity
         style={styles.botao}
         onPress={ () => {this.clicou()} }
         >
         
-        <Text style={styles.botaoText}>Login</Text>
+        <Text style={styles.botaoText}>Cadastrar</Text>
       </TouchableOpacity>
       
     </View>
@@ -27,23 +32,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  logo: {
-    marginBottom: 50,
-    //position: 'absolute',
-  },
 
-  
-
-  title: {
-    fontStyle: 'Montserrat',
-    marginBottom: 200,
-    color: '#cccccc',
-    fontSize: 33,
+  input: {
+    marginTop: 10,
+    padding: 10,
+    width: 300,
+    backgroundColor: '#fff',
+    fontSize: 16,
     fontWeight: 'bold',
-    textAlign: 'center',
+    borderRadius: 3,
   },
-
-  
 
   botao: {
     width: 300,
@@ -59,7 +57,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     color: '#fff',
-
-
   }
 });
+
