@@ -70,23 +70,23 @@ Com base na norma ISO/IEC 25010, selecionamos as seguintes subcaracterísticas e
 ## 1. Funcionalidade:
 
 **Adequação funcional:** O aplicativo deve atender aos requisitos de controle de medicamentos, como registro de doses, horários, lembretes e histórico de uso.
-**°Métrica:** Percentual de requisitos funcionais implementados e testados com sucesso.
+ **Métrica:** Percentual de requisitos funcionais implementados e testados com sucesso.
 
 **Correção funcional:** O aplicativo deve executar as funções corretamente, sem erros ou falhas.
-**°Métrica:** Número de defeitos funcionais encontrados e corrigidos durante os testes.
+**Métrica:** Número de defeitos funcionais encontrados e corrigidos durante os testes.
 
 ## 2. Confiabilidade:
 
 **Maturidade:** O aplicativo deve ser estável e apresentar baixo número de falhas durante o uso.
-**°Métrica:** Tempo médio entre falhas (MTBF).
+**Métrica:** Tempo médio entre falhas (MTBF).
 
 **Tolerância a falhas:** O aplicativo deve ser capaz de se recuperar de falhas sem perda de dados ou interrupção do serviço.
-**°Métrica:** Tempo médio para recuperação (MTTR).
+**Métrica:** Tempo médio para recuperação (MTTR).
 
 ## 3. Usabilidade:
 
 **Inteligibilidade:** O aplicativo deve ser fácil de entender e usar, com interfaces intuitivas e instruções claras.
-**°Métrica:** Tempo médio para completar tarefas básicas, número de erros cometidos pelos usuários durante o uso.
+**Métrica:** Tempo médio para completar tarefas básicas, número de erros cometidos pelos usuários durante o uso.
 
 **Apreensibilidade:** O aplicativo deve ser fácil de aprender, com recursos de ajuda e tutoriais acessíveis.
 **Métrica:** Tempo médio para novos usuários aprenderem a usar o aplicativo, número de solicitações de suporte relacionadas à usabilidade.
