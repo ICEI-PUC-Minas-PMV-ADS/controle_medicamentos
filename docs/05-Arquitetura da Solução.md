@@ -65,12 +65,47 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+Com base na norma ISO/IEC 25010, selecionamos as seguintes subcaracterísticas e métricas para nortear o desenvolvimento do nosso aplicativo de controle de medicamentos:
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+## 1. Funcionalidade:
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+**Adequação funcional:** O aplicativo deve atender aos requisitos de controle de medicamentos, como registro de doses, horários, lembretes e histórico de uso.
+**°Métrica:** Percentual de requisitos funcionais implementados e testados com sucesso.
+
+**Correção funcional:** O aplicativo deve executar as funções corretamente, sem erros ou falhas.
+**°Métrica:** Número de defeitos funcionais encontrados e corrigidos durante os testes.
+
+## 2. Confiabilidade:
+
+**Maturidade:** O aplicativo deve ser estável e apresentar baixo número de falhas durante o uso.
+**°Métrica:** Tempo médio entre falhas (MTBF).
+
+**Tolerância a falhas:** O aplicativo deve ser capaz de se recuperar de falhas sem perda de dados ou interrupção do serviço.
+**°Métrica:** Tempo médio para recuperação (MTTR).
+
+## 3. Usabilidade:
+
+**Inteligibilidade:** O aplicativo deve ser fácil de entender e usar, com interfaces intuitivas e instruções claras.
+**°Métrica:** Tempo médio para completar tarefas básicas, número de erros cometidos pelos usuários durante o uso.
+
+**Apreensibilidade:** O aplicativo deve ser fácil de aprender, com recursos de ajuda e tutoriais acessíveis.
+**Métrica:** Tempo médio para novos usuários aprenderem a usar o aplicativo, número de solicitações de suporte relacionadas à usabilidade.
+
+## 4. Eficiência:
+
+**Comportamento em relação ao tempo**: O aplicativo deve responder rapidamente às ações do usuário e executar as tarefas em tempo hábil.
+**Métrica:** Tempo médio de resposta do aplicativo, tempo de carregamento de telas e funcionalidades.
+
+**Utilização de recursos**: O aplicativo deve utilizar os recursos do dispositivo de forma eficiente, sem consumir bateria ou memória em excesso.
+**Métrica:** Consumo de bateria e memória do aplicativo durante o uso.
+
+## 5. Segurança:
+
+**Confidencialidade:** As informações do usuário devem ser protegidas contra acesso não autorizado.
+**Métrica:** Número de tentativas de acesso não autorizado, número de vulnerabilidades de segurança encontradas e corrigidas.
+
+**Integridade:** Os dados do aplicativo devem ser protegidos contra modificações não autorizadas.
+**Métrica:** Número de tentativas de modificação não autorizada de dados, número de incidentes de perda ou corrupção de dados.
 
 > **Links Úteis**:
 >
