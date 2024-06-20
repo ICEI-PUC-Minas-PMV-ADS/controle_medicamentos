@@ -1,12 +1,12 @@
 message: Please cite this software using these metadata.
-title:
+title: CONTROLE DE MEDICAMENTOS
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: José Copertino Filho
+    given-names: Mário
+  - family-names: Marques Aguiar
+    given-names: Matheus
+  - family-names: Singulano Machado
+    given-names: Thiago
   - family-names: 
     given-names: 
   - family-names: 
@@ -19,11 +19,12 @@ authors:
     given-names: 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: de Macedo Neto
+    given-names: Cristiano 
 keywords:
-  - 
-  - 
-repository-code: 
+  - Controle
+  - Medicamentos
+  - Estoque
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t8-g4-controle_medicamentos
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 23/06/2024
