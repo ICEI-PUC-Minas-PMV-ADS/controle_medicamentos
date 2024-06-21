@@ -26,38 +26,6 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
-CREATE TABLE Paciente (
-ID_Paciente INT PRIMARY KEY,
-Nome VARCHAR(255) NOT NULL,
-CPF VARCHAR(11) UNIQUE NOT NULL,
-Data_Nascimento DATE,
-Genero VARCHAR(50),
-Endereco VARCHAR(255)
-);
-
-CREATE TABLE Remedio (
-ID_Remedio INT PRIMARY KEY,
-Nome VARCHAR(255) NOT NULL,
-Descricao TEXT,
-Dosagem VARCHAR(100),
-Periodo VARCHAR(50)
-);
-
-CREATE TABLE Horario_Remedio (
-ID_Horario INT PRIMARY KEY,
-ID_Paciente INT,
-ID_Remedio INT,
-Data DATE NOT NULL,
-Hora TIME NOT NULL,
-Observacao TEXT,
-Notificacoes TEXT,
-FOREIGN KEY (ID_Paciente) REFERENCES Paciente(ID_Paciente),
-FOREIGN KEY (ID_Remedio) REFERENCES Remedio(ID_Remedio)
-);
-
-
-
-
 ## Tecnologias Utilizadas
 
 IDEs de desenvolvimento: https://docs.expo.dev/, Visual Studio Code, node.JS, Visual Studio 2022 e React Native;
