@@ -36,7 +36,7 @@ CREATE TABLE Paciente (
   Endereco VARCHAR(255)
 );
 
--- Criação da tabela Remedio
+
 CREATE TABLE Remedio (
   ID_Remedio INT PRIMARY KEY,
   Nome VARCHAR(255) NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE Remedio (
   Periodo VARCHAR(50) 
 );
 
--- Criação da tabela Horario_Remedio
+
 CREATE TABLE Horario_Remedio (
   ID_Horario INT PRIMARY KEY,
   ID_Paciente INT,
