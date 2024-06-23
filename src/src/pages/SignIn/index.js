@@ -30,8 +30,10 @@ export default function SignIn() {
           style={styles.input}
         />
 
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button}
+        onPress={() => navigation.navigate('Medicine')}>
           <Text style={styles.buttonText}>Acessar</Text>
+          
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.buttonRegister}
@@ -82,9 +84,10 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#FF0000',
-    width: '100%',
-    borderRadius: 4,
+    width: '60%',
+    borderRadius: 50,
     paddingVertical: 8,
+    alignSelf: 'center',
     marginTop: 14,
     justifyContent: 'center',
     alignItems: 'center'
