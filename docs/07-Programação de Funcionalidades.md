@@ -76,9 +76,6 @@ export default function SignIn() {
 
 
     </View>
-  );
-}
-
 
 
 b. Navegação
@@ -137,12 +134,7 @@ export default function Routes() {
             />
            
         </Stack.Navigator>
-    )
-
-
-
-}
-
+ 
 
 
 c. Gerenciamento de Estado
