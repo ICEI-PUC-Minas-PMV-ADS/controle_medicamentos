@@ -61,7 +61,7 @@ CREATE TABLE Horario (
 
 ## Tecnologias Utilizadas
 
-IDEs de desenvolvimento: https://docs.expo.dev/, Visual Studio Code, node.JS, Visual Studio 2022 e React Native;
+IDEs de desenvolvimento: https://docs.expo.dev/, Visual Studio Code
 
 Linguagens utilizadas: React Native, NodeJS
 
