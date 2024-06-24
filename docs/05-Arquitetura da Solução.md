@@ -28,7 +28,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ```-- Criação da tabela Paciente
 CREATE TABLE Paciente (
-  ID_Paciente INT PRIMARY KEY,
+  ID_Usuario INT PRIMARY KEY,
   Nome VARCHAR(255) NOT NULL,
   CPF VARCHAR(11) UNIQUE NOT NULL, 
   Data_Nascimento DATE,
@@ -37,8 +37,8 @@ CREATE TABLE Paciente (
 );
 
 
-CREATE TABLE Remedio (
-  ID_Remedio INT PRIMARY KEY,
+CREATE TABLE Medicamento (
+  ID_Medicamento INT PRIMARY KEY,
   Nome VARCHAR(255) NOT NULL,
   Descricao TEXT,
   Dosagem VARCHAR(100),
@@ -46,16 +46,16 @@ CREATE TABLE Remedio (
 );
 
 
-CREATE TABLE Horario_Remedio (
+CREATE TABLE Horario (
   ID_Horario INT PRIMARY KEY,
-  ID_Paciente INT,
-  ID_Remedio INT,
+  ID_Usuario INT,
+  ID_Medicamento INT,
   Data DATE NOT NULL,
   Hora TIME NOT NULL,
   Observacao TEXT,
   Notificacoes TEXT,
-  FOREIGN KEY (ID_Paciente) REFERENCES Paciente(ID_Paciente),
-  FOREIGN KEY (ID_Remedio) REFERENCES Remedio(ID_Remedio)
+  FOREIGN KEY (ID_Usuario) REFERENCES Paciente(ID_Usuario),
+  FOREIGN KEY (ID_Medicamento) REFERENCES Medicamento(ID_Remedio)
 );
 ```
 
@@ -63,7 +63,7 @@ CREATE TABLE Horario_Remedio (
 
 IDEs de desenvolvimento: https://docs.expo.dev/, Visual Studio Code, node.JS, Visual Studio 2022 e React Native;
 
-Linguagens utilizadas: HTML, CSS, JavaScript;
+Linguagens utilizadas: React Native, NodeJS
 
 Ferramenta de design: Canva;
 
@@ -87,14 +87,8 @@ Segue a representação da interatividade do usuário com o app.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Hospedagem no repositorio do GitHub com banco de dados instalados no Firebase.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
 
