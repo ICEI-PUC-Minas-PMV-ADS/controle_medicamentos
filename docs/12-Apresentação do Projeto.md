@@ -11,5 +11,5 @@ CONTROLE DE MEDICAMENTOS
 
 ## Identidade Visual (Marca, Design)
 
-(img/IndentidadeVisual.png)
+![Indentidade Visual](img/IndentidadeVisual.png)
 
