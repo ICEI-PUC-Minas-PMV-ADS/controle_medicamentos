@@ -79,16 +79,7 @@ export default function SignIn() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FF0000'
-  },
-  containerHeader: {
-    marginTop: '14%',
-    marginBottom: '8%',
-    paddingStart: '5%',
-  },
+
 
 b. Navegação
 Para navegação entre telas, utilize bibliotecas como react-navigation. Para configurar a navegação básica:
